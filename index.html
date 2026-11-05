@@ -1,131 +1,116 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#4b1010">
-  <title>Royal Biryani | Ranchi</title>
+  <meta name="theme-color" content="#351014">
+  <meta name="description" content="Order Royal Mutton Biryani in Ranchi. Fresh lunch orders from Royal Biryani.">
+  <title>Royal Biryani | A Royal Feast in Ranchi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="announcement">FRESH LUNCH ORDERS IN RANCHI <span>•</span> DAILY 11 AM – 4 PM</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Royal Biryani home">
+      <span class="brand-mark">♛</span>
+      <span class="brand-copy"><strong>ROYAL <i>BIRYANI</i></strong><small>AUTHENTIC TASTE · ROYAL EXPERIENCE</small></span>
+    </a>
+    <nav class="desktop-nav"><a href="#story">Our promise</a><a href="#menu">Our menu</a><a href="#contact">Contact</a></nav>
+    <a class="header-call" href="tel:7539126937">Call 75391 26937</a>
+  </header>
 
-<header class="navbar">
-  <a class="logo" href="#">
-    <span class="crown">♛</span>
-    <span>ROYAL <b>BIRYANI</b>
-      <small>AUTHENTIC TASTE. ROYAL EXPERIENCE.</small>
-    </span>
-  </a>
-  <a href="tel:7539126937" class="call">☎ 7539126937</a>
-</header>
-
-<section class="hero">
-  <div class="hero-content">
-    <span class="eyebrow">FRESH LUNCH • RANCHI</span>
-    <h1>A Royal Feast,<br><em>Made with Love.</em></h1>
-    <p>Enjoy our signature mutton biryani, freshly prepared for your lunch.</p>
-
-    <div class="timings">
-      <span>🕚 11 AM – 4 PM</span>
-      <span>🚚 Ranchi Delivery</span>
-    </div>
-
-    <a href="#menu" class="primary-btn">ORDER NOW · ₹399</a>
-  </div>
-
-  <div class="hero-image">
-    <img src="assets/mutton-biryani.jpg"
-         alt="Royal Mutton Biryani">
-  </div>
-</section>
-
-<section class="menu" id="menu">
-  <div class="section-title">
-    <span class="eyebrow">OUR SIGNATURE DISH</span>
-    <h2>Discover Our <em>Royal Taste</em></h2>
-    <p>One signature dish, prepared with care.</p>
-  </div>
-
-  <div class="product-card">
-    <img src="assets/mutton-biryani.jpg"
-         alt="Mutton Biryani">
-
-    <div class="product-details">
-      <span class="tag">CUSTOMER FAVOURITE</span>
-      <h3>Royal Mutton Biryani</h3>
-      <p>Single portion · Fresh lunch preparation</p>
-
-      <div class="price">₹399</div>
-
-      <div class="quantity">
-        <button id="minus">−</button>
-        <span id="qty">1</span>
-        <button id="plus">+</button>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="kicker"><span class="kicker-line"></span> A SPECIAL LUNCH, MADE ROYAL</span>
+        <h1>Make lunch<br>feel <em>royal.</em></h1>
+        <p class="hero-intro">A satisfying serving of mutton biryani, prepared for your lunch and delivered across serviceable areas of Ranchi.</p>
+        <div class="hero-facts">
+          <span><b>11 AM – 4 PM</b><small>Lunch hours</small></span>
+          <span><b>₹399</b><small>Single portion</small></span>
+          <span><b>Ranchi</b><small>Delivery area</small></span>
+        </div>
+        <a class="button button-gold" href="#menu">ORDER YOUR BIRYANI <span>→</span></a>
+        <p class="hero-note">Delivery charge confirmed when your order is placed.</p>
       </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mutton_biryani.JPG?width=1600" alt="Photograph of Hyderabadi mutton biryani" fetchpriority="high">
+          <div class="photo-caption"><span>OUR SIGNATURE DISH</span><b>Royal Mutton Biryani</b></div>
+        </div>
+        <div class="round-stamp"><span>MADE FOR</span><strong>YOUR<br>LUNCH</strong><span>RANCHI</span></div>
+      </div>
+    </section>
 
-      <button class="primary-btn" id="addCart">
-        ADD TO CART
-      </button>
-    </div>
-  </div>
-</section>
+    <section class="promise" id="story">
+      <div class="promise-symbol">✦</div>
+      <div><span class="kicker">THE ROYAL BIRYANI PROMISE</span><h2>Good food deserves<br><em>a little ceremony.</em></h2></div>
+      <p>We are starting with one signature favourite: Royal Mutton Biryani. Simple ordering, clear pricing and personal confirmation on WhatsApp.</p>
+    </section>
 
-<section class="checkout" id="checkout">
-  <div class="checkout-info">
-    <h2>Your Order</h2>
-    <p id="cartItem">Royal Mutton Biryani × 1</p>
-    <h3 id="subtotal">Subtotal: ₹399</h3>
-    <p>Delivery charges will be confirmed by our team.</p>
-  </div>
+    <section class="menu-section" id="menu">
+      <div class="section-heading"><div><span class="kicker">STRAIGHT FROM OUR MENU</span><h2>One dish. <em>All heart.</em></h2></div><p>Our menu will grow as we introduce more favourites.</p></div>
+      <article class="menu-card">
+        <div class="menu-photo">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mutton_biryani.JPG?width=1200" alt="Mutton biryani served with fragrant rice" loading="lazy">
+          <span class="photo-label">SIGNATURE SELECTION</span>
+        </div>
+        <div class="menu-info">
+          <span class="menu-overline">ROYAL BIRYANI · RANCHI</span>
+          <h3>Royal Mutton<br>Biryani</h3>
+          <p class="dish-description">A generous single portion for a satisfying lunch. Order directly and our team will confirm availability and delivery details.</p>
+          <div class="price-row"><strong>₹399</strong><span>Single portion</span></div>
+          <div class="cart-controls">
+            <div class="quantity-control" aria-label="Choose quantity">
+              <button type="button" id="minus" aria-label="Decrease quantity">−</button><output id="qty" aria-live="polite">1</output><button type="button" id="plus" aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="button button-dark" id="addCart">ADD TO ORDER <span>→</span></button>
+          </div>
+          <small class="availability-note">Lunch service: 11 AM – 4 PM · Subject to availability</small>
+        </div>
+      </article>
+    </section>
 
-  <form id="orderForm">
-    <h2>Delivery Details</h2>
+    <section class="checkout-section" id="checkout">
+      <div class="checkout-heading"><span class="kicker">JUST A FEW DETAILS</span><h2>Let’s get your<br><em>order started.</em></h2><p>Submit your details and WhatsApp will open with your order message. Your order is confirmed only after our team replies.</p></div>
+      <div class="checkout-card">
+        <div class="order-summary">
+          <span class="summary-label">YOUR ORDER SUMMARY</span>
+          <div class="summary-line"><span id="cartItem">Royal Mutton Biryani × 1</span><b id="subtotal">₹399</b></div>
+          <div class="summary-line muted"><span>Delivery charge</span><span>Confirmed by team</span></div>
+          <div class="summary-total"><span>Food subtotal</span><strong id="summaryTotal">₹399</strong></div>
+          <p>Final payable amount will include delivery, if applicable.</p>
+        </div>
+        <form id="orderForm">
+          <div class="form-grid">
+            <label>YOUR NAME<input name="name" autocomplete="name" required placeholder="Enter your full name"></label>
+            <label>MOBILE NUMBER<input name="phone" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9+ -]{10,15}" required placeholder="10-digit mobile number"></label>
+          </div>
+          <label>DELIVERY ADDRESS<textarea name="address" autocomplete="street-address" required placeholder="House / flat, area, landmark, Ranchi"></textarea></label>
+          <div class="form-grid">
+            <label>ORDER TYPE<select name="orderType"><option value="Home delivery">Home delivery</option><option value="Self pickup">Self pickup</option></select></label>
+            <label>PAYMENT PREFERENCE<select name="payment"><option value="Cash on delivery">Cash on delivery</option><option value="UPI (confirm details on WhatsApp)">UPI (confirm on WhatsApp)</option></select></label>
+          </div>
+          <button class="button button-gold submit-button" type="submit">CONTINUE TO WHATSAPP <span>→</span></button>
+          <small class="form-footnote">No online payment is collected on this website. Please wait for order confirmation.</small>
+        </form>
+      </div>
+    </section>
 
-    <label>Full Name</label>
-    <input name="name" required placeholder="Enter your name">
+    <section class="contact-section" id="contact">
+      <div><span class="kicker">WE’RE HAPPY TO HELP</span><h2>Let’s make your<br><em>lunch special.</em></h2></div>
+      <div class="contact-details"><p><b>Royal Biryani</b><br>Sadiya Zehra</p><p>Santusti Apartment,<br>Karbala Chowk, Ranchi</p><a href="https://wa.me/917539126937" target="_blank" rel="noopener">WhatsApp · 75391 26937 ↗</a></div>
+    </section>
+  </main>
 
-    <label>Mobile Number</label>
-    <input name="phone" type="tel"
-      pattern="[0-9+ -]{10,15}" required
-      placeholder="Enter mobile number">
-
-    <label>Delivery Address</label>
-    <textarea name="address" required
-      placeholder="House number, area, landmark, Ranchi"></textarea>
-
-    <label>Order Type</label>
-    <select name="orderType">
-      <option value="Delivery">Home Delivery</option>
-      <option value="Pickup">Self Pickup</option>
-    </select>
-
-    <label>Payment Method</label>
-    <select name="payment">
-      <option value="Cash on Delivery">Cash on Delivery</option>
-      <option value="UPI">UPI</option>
-    </select>
-
-    <button type="submit" class="primary-btn">
-      PLACE ORDER
-    </button>
-
-    <small>Your order will be confirmed by Royal Biryani.</small>
-  </form>
-</section>
-
-<section class="contact">
-  <h2>Enjoy the Royal Taste!</h2>
-  <p>Sadiya Zehra</p>
-  <p>Santusti Apartment, Karbala Chowk, Ranchi</p>
-  <a href="https://wa.me/917539126937">WhatsApp: 7539126937</a>
-</section>
-
-<footer>
-  © <span id="year"></span> Royal Biryani · Ranchi
-  <p>Authentic Taste. Royal Experience.</p>
-</footer>
-
-<script src="app.js"></script>
+  <footer>
+    <a class="footer-brand" href="#">♛ ROYAL BIRYANI</a>
+    <span>© <span id="year"></span> Royal Biryani · Ranchi</span>
+    <small>Hero and menu image: Bhaskaranaidu, “Mutton biryani.JPG”, Wikimedia Commons, CC BY-SA 4.0. <a href="https://commons.wikimedia.org/wiki/File:Mutton_biryani.JPG" target="_blank" rel="noopener">Image source & licence</a>.</small>
+  </footer>
+  <script src="app.js"></script>
 </body>
 </html>
