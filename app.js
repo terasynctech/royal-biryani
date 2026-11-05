@@ -1,5 +1,5 @@
 const PRICE = 399;
-const WHATSAPP_NUMBER = "917539126937";
+const WHATSAPP_NUMBER = "917549126937";
 let quantity = 1;
 
 const qtyOutput = document.getElementById("qty");
