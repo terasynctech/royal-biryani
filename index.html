@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4b1010">
+  <title>Royal Biryani | Ranchi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a class="logo" href="#">
+    <span class="crown">♛</span>
+    <span>ROYAL <b>BIRYANI</b>
+      <small>AUTHENTIC TASTE. ROYAL EXPERIENCE.</small>
+    </span>
+  </a>
+  <a href="tel:7539126937" class="call">☎ 7539126937</a>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <span class="eyebrow">FRESH LUNCH • RANCHI</span>
+    <h1>A Royal Feast,<br><em>Made with Love.</em></h1>
+    <p>Enjoy our signature mutton biryani, freshly prepared for your lunch.</p>
+
+    <div class="timings">
+      <span>🕚 11 AM – 4 PM</span>
+      <span>🚚 Ranchi Delivery</span>
+    </div>
+
+    <a href="#menu" class="primary-btn">ORDER NOW · ₹399</a>
+  </div>
+
+  <div class="hero-image">
+    <img src="assets/mutton-biryani.jpg"
+         alt="Royal Mutton Biryani">
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="section-title">
+    <span class="eyebrow">OUR SIGNATURE DISH</span>
+    <h2>Discover Our <em>Royal Taste</em></h2>
+    <p>One signature dish, prepared with care.</p>
+  </div>
+
+  <div class="product-card">
+    <img src="assets/mutton-biryani.jpg"
+         alt="Mutton Biryani">
+
+    <div class="product-details">
+      <span class="tag">CUSTOMER FAVOURITE</span>
+      <h3>Royal Mutton Biryani</h3>
+      <p>Single portion · Fresh lunch preparation</p>
+
+      <div class="price">₹399</div>
+
+      <div class="quantity">
+        <button id="minus">−</button>
+        <span id="qty">1</span>
+        <button id="plus">+</button>
+      </div>
+
+      <button class="primary-btn" id="addCart">
+        ADD TO CART
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="checkout" id="checkout">
+  <div class="checkout-info">
+    <h2>Your Order</h2>
+    <p id="cartItem">Royal Mutton Biryani × 1</p>
+    <h3 id="subtotal">Subtotal: ₹399</h3>
+    <p>Delivery charges will be confirmed by our team.</p>
+  </div>
+
+  <form id="orderForm">
+    <h2>Delivery Details</h2>
+
+    <label>Full Name</label>
+    <input name="name" required placeholder="Enter your name">
+
+    <label>Mobile Number</label>
+    <input name="phone" type="tel"
+      pattern="[0-9+ -]{10,15}" required
+      placeholder="Enter mobile number">
+
+    <label>Delivery Address</label>
+    <textarea name="address" required
+      placeholder="House number, area, landmark, Ranchi"></textarea>
+
+    <label>Order Type</label>
+    <select name="orderType">
+      <option value="Delivery">Home Delivery</option>
+      <option value="Pickup">Self Pickup</option>
+    </select>
+
+    <label>Payment Method</label>
+    <select name="payment">
+      <option value="Cash on Delivery">Cash on Delivery</option>
+      <option value="UPI">UPI</option>
+    </select>
+
+    <button type="submit" class="primary-btn">
+      PLACE ORDER
+    </button>
+
+    <small>Your order will be confirmed by Royal Biryani.</small>
+  </form>
+</section>
+
+<section class="contact">
+  <h2>Enjoy the Royal Taste!</h2>
+  <p>Sadiya Zehra</p>
+  <p>Santusti Apartment, Karbala Chowk, Ranchi</p>
+  <a href="https://wa.me/917539126937">WhatsApp: 7539126937</a>
+</section>
+
+<footer>
+  © <span id="year"></span> Royal Biryani · Ranchi
+  <p>Authentic Taste. Royal Experience.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
